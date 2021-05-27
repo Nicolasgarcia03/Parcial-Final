@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Final Partial</string>
+    <string name="ConnectionServices">Connection Services</string>
+    <string name="Group">Group</string>
+    <string name="location">Location</string>
+    <string name="finalPartial">Menu Partial Final Elective</string>
+    <string name="nameContinent">Name Continent</string>
+    <string name="codeContinent">Code Continent</string>
+    <string name="nameLocaleContinent">Name Locale Continent</string>
+    <string name="latitudeContinent">Latitude Continent</string>
+    <string name="longitudeContinent">Longitude Continent</string>
+    <string name="nameCountry">Name Country</string>
+    <string name="alpha2CodeCountry">Alpha2Code Country</string>
+    <string name="regionCountry">Region Country</string>
+    <string name="subregionCountry">Subregion Country</string>
+    <string name="populationCountry">Population Country</string>
+    <string name="areaCountry">Area Country</string>
+    <string name="seeContinent">See Continent</string>
+    <string name="gallery">Gallery</string>
+    <string name="viewInTheMap">View in the Map</string>
+    <string name="Country">Country</string>
+    <string name="Continents">Continents</string>
+    <string name="GroupElective">Group</string>
+    <string name="MapLocation">Map Location</string>
+
+</resources>

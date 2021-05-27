@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_navigation"
+    app:startDestination="@id/countryServicesFragment">
+
+    <fragment
+        android:id="@+id/countryServicesFragment"
+        android:name="com.example.parcialfinal.CountryServicesFragment"
+        android:label="@string/Country"
+        tools:layout="@layout/fragment_country_services" >
+        <action
+            android:id="@+id/action_countryServicesFragment_to_continentsServicesFragment"
+            app:destination="@id/continentsServicesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/continentsServicesFragment"
+        android:name="com.example.parcialfinal.ContinentsServicesFragment"
+        android:label="@string/Continents"
+        tools:layout="@layout/fragment_continents_services" />
+    <fragment
+        android:id="@+id/groupFragment"
+        android:name="com.example.parcialfinal.GroupFragment"
+        android:label="@string/GroupElective"
+        tools:layout="@layout/fragment_group">
+        <action
+            android:id="@+id/action_groupFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.parcialfinal.LocationFragment"
+        android:label="@string/MapLocation"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.parcialfinal.MapFragment"
+        android:label="@string/location"
+        tools:layout="@layout/fragment_map" />
+</navigation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/countryServicesFragment"
+        android:icon="@drawable/ic_baseline_cast_connected_24"
+        android:iconTint="@color/black"
+        android:title="@string/ConnectionServices"
+        android:textColor="@color/black"/>
+    <item android:id="@+id/groupFragment"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:iconTint="@color/black"
+        android:title="@string/Group"
+        android:textColor="@color/black"/>
+    <item android:id="@+id/locationFragment"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:iconTint="@color/black"
+        android:title="@string/location"
+        android:textColor="@color/black"/>
+</menu>
